@@ -3,21 +3,70 @@
 <html lang>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"><!-- for readibility of the input by user-->
   <title>Big White Dot
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\hp\Desktop\practice_html\style.css">
+    <style>
+      *{margin:0px;}
+      body{font-family: sans-serif;}
+
+
     
-        
+    .link{color:white;font-size: 32px;
+     font-family: sans-serif;
+     background-color:#303030;text-decoration: none; 
+     margin-left: 60%;
+    padding:5px;
+    border-radius:10px;
+    }
+    .link:hover{font-size: 31.9px; padding:2px;background: #3b5998}
+    
+    .g{text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  display:inline-block;
+  width:500px;
+  background-color: black; 
+    color:#FFFFFF;
+    margin-left: 30%;
+
+  border-radius: 10px;
+  }
+    aside{color:#FFFFFF;background-color: red;text-align: center;margin:0px; padding:5px;}
+    h2{font-family: sans-serif;}
+
+    .class{ color:grey;
+      margin-top: 5px;
+      font-family: sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 15px;
+        }
+
+     #mag{margin-top:20px;}
+
+     .mag:hover{background-color: #F0F0F0; margin:0px;}
+     .mag{background-image: url(514.jpg);}
+     .smart:hover{background-color: #F0F0F0; margin:0px;}
+     .smart{background-image: url(513.jpg);}
+
+    section.m li a:hover{color: black; font-size: 15px; text-decoration: underline;}
+    section.m li:hover{background-color: white; width:310px;border-radius:6px;}
+    section.m li a{color:black;text-decoration: none;}
+    section.m li{font-family:sans-serif;}
+    section.m{background-image: url(515.jpg);margin:0px; padding:10px; border-bottom: 8px; border-color: red;}
+  </style>
+
     
   </head>
     <body>
       <div class="g">
-    <h1 id="BIG_WHITE_DOT">BIG WHITE DOT </h1></div>
+    <h1 id="BIG_WHITE_DOT" style="background-image: url(512.png);">BIG WHITE DOT </h1></div>
     <p class="class">Big White Dot is the current working on it's new products in the market.
       <div class="class">Designed for those who defy limits and change the world, the new MacBook Pro is by far the most powerful notebook we’ve ever made. With an immersive 16-inch Retina display, super-fast processors, next-generation graphics, the largest battery capacity ever in a MacBook Pro, a new Magic Keyboard and massive storage, it’s the ultimate pro notebook for the ultimate user.</div>
     <section>
-      <h2 id="What's_in_our_mind?">What's in our mind?</h2>
+      <h2 id="What's_in_our_mind?" class="g">What's in our mind?</h2>
       <div class="class">
         We are currently engaged in making the company more meaningfull by providing:
       <ul>
@@ -33,34 +82,40 @@
       </ul></div>
 
     </section>
-    <section>
-      <h2 id="Our_Current_product"> Our Current product </h2>
+    <section class="mag"><!--magazine section-->
+      <h2 id="Our_Current_product" class="g"> Our Current product </h2>
       <div>
-        <h3 class="class">THE TEA STALL</h3>
-        <div>
-        <img  id="1.cover.png" src="1.cover.png" width="480"  height="640" alt="cover photo of the magazine">
-      </div>
+        <h3 class="link" style="width:20%;">THE TEA STALL</h3>
+        <!--Magazine photo-->
+        <img  id="mag" src="1.cover.png" width="480"  height="640" alt="cover photo of the magazine">
+      
       </div>
     </section>
-    <section>
-      <h2 id="Our_Upcoming_Products">Our Upcoming Products</h2>
+    <section class="smart"> <!--SMART WATCH SECTION-->
+      <h2 id="Our_Upcoming_Products" class="g">Our Upcoming Products</h2>
+        
+     <h3 style="width:30%;" class="link"> <!-- SMART WATCH LINK -->
+      <a href="https://www.apple.com/in/watch/" title="apple smart watch" target="_blank"> BIG WHITE DOT(BWD) Smart Watch</a>
+     </h3>
       <div>
       <img src="apple.jpg" width="480"  height="480" alt="photo of a smart watch">
     </div>
     </section>
     
     <section class="m">
+      
       <h2>Links of different page segments</h2>
     
-    <ul>
+    <ul style=margin:10px;> <!--Defragmented links/internal links-->
     <li><a href="#BIG_WHITE_DOT" title="wHATS BIG WHITE DOT IS" ><div>BIG WHITE DOT LINK OF THE FIRST PAGE </div></a></li>
     <li><a href="#What's_in_our_mind?"><div> Whats in our mind i.e. our future plans</div></a></li>
     <li><a href="#Our_Current_product" ><div>Our Current product</div></a></li>
     <li><a href="#1.cover.png" > <div> magazine image</div></a></li>
     <li><a href="#Our_Upcoming_Products" ><div>current products</div></a></li>
     </ul>
+  
   </section>
-    <aside> BIG WHITE DOT &copy; 2019</aside>
+    <aside> BIG WHITE DOT &copy; 2019</aside><!-- "&copy;" for copyright sign-->
 
 
 

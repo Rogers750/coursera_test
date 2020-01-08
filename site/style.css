@@ -1,0 +1,20 @@
+div.g{text-align: center;
+    
+	display:inline-block;
+	width:500px;
+	background-color: black; 
+	color:white;
+	
+    }
+    .g{text-align: center;
+    
+	display:inline-block;
+	width:500px;
+	background-color: black; 
+    color:white;}
+    aside{color:white;background-color: red;text-align: center;}
+
+    .class{ color:grey; font-family: sans-serif; font-size: 28px; font-weight: bold; }
+    section.m li a:hover{color: green; font-size: 20px; text-decoration: underline;}
+    section.m li:hover{background-color: orange; width:400px;text-decoration: none}
+    section.m li a{color:black;text-decoration: none}
